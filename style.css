@@ -1,0 +1,295 @@
+/*
+Theme Name: Astra thème enfant
+Description: Theme enfant de Astra. 
+Text Domain : astra-child
+Author: Justine Miko
+Author URI: https://www.justinemiko.life
+Template: astra
+Version: 1.0
+*/
+
+
+body, header, footer {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+}
+
+.entry-content h2 {
+	color: white;
+}
+
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+	padding: 0;
+}
+
+
+/*header */
+
+.header-link {
+	color: #000000;
+}
+
+.menu-container {
+	height: 30px;
+	max-height: 90%;
+}
+
+
+.house {
+	background: transparent url(http://www.sail.justine-mikolajczak.com/wp-content/uploads/2021/03/home-solid.svg) no-repeat top left;
+	padding-left : 18px;
+	text-indent:-9999px;
+	height: 25px;
+	width: 25px;
+}
+
+.hfe-menu-item {
+	border-right: solid rgb(220,220,220) 0.1px;
+}
+
+.logo-separator {
+	height: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.elementor-icon-box-wrapper {
+	border-right: solid rgb(220,220,220) 0.1px;
+	height: 30px;
+}
+
+.site-description {
+    color: #C45824;
+		font-weight: bold;
+		font-style: italic;
+}
+
+/* Home page */
+
+.cover-picture {
+	max-width: 100%;
+
+}
+
+.cover-title {
+	background-color: #C45824;
+	font-weight: bold;
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	padding-top: 9.7%;
+	padding-bottom: 6.5%;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.subscribe-button {
+	width: 200px;
+	background-color: #C45824;
+	border-style: solid;
+	border-radius: 10px;
+	text-align: center;
+	height: 40px;
+	padding-top: 2px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -215px;
+	color: white;
+}
+
+/* first section services */
+
+/* bandeau orange */
+.rectangle {
+	width: 100%;
+	height: 140px;
+	background-color: #C45824;
+	position: absolute;
+	top: 200px;
+	
+}
+
+/* Blog posts */
+
+.news-cover {
+	padding: 0;
+}
+
+.singlepost-title {
+	width: 100%;
+	text-align: center;
+}
+
+.entry-title {
+	background-color: #C45824;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	width: 150%;
+	margin-left: -27.3%;
+	margin-top: -8%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+
+}
+
+.anwp-pg-post-teaser__excerpt {
+	text-align: justify;
+}
+.back-button {
+	color: #C45824;
+	font-size: 40px;
+}
+
+.big-back-button {
+	color: #C45824;
+	font-size: 88px;
+	display: flex;
+	justify-content: center;
+}
+
+.blog-text {
+	text-align: justify;
+}
+
+.posted-on {
+	color: #000000;
+	font-weight: bold;
+
+}
+
+.published {
+	color: black;
+}
+
+.group-button {
+	display: flex;
+	justify-content: center;
+	align-items: space-around;
+	
+}
+
+.private-content-button {
+	width: 10%;
+	height: 5%;
+	border-radius: 10px;
+	background-color: #0E5C45;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.5%;
+	margin-left: 1.5%;
+	
+}
+
+.load-more {
+	color: #000000;
+	font-weight: bold;
+}
+
+
+/* Section "Pourquoi adhérer" */
+
+.values {
+	height: 200px;
+}
+
+/* Contact Form */
+
+/*classe de section elementor*/
+.form-section {
+	height: auto;
+	padding: 0;
+}
+
+/*classe dans shortcode*/
+
+.form-content {
+	color: #FFFFFF;
+	padding-top: 10%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.form-divider {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: flex-start;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.contact-label {
+	display: flex;
+}
+
+.wpcf7 {
+	/*width: 100%;
+	margin-left: 5%;*/
+}
+
+.form-button {
+	display: flex;
+	justify-content: center;
+	padding-left: 5%;
+}
+
+
+/* Message box*/
+.wpcf7-form-control { 
+	resize: none;
+
+}
+
+.wpcf7-textarea {
+	height: 200px;
+}
+
+/*taille des champs*/
+.input-weight {
+	width: 70%;
+	padding-bottom: 2%;
+
+}
+
+
+/* footer */
+
+.footer-link {
+	color: #838383;
+}
+
+.footer-nav {
+	font-weight: normal;
+	display: flex;
+}
+
+.menu {
+	list-style: none;
+	color: #838383;
+	font-weight: normal;
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.hfe-nav-menu {
+	font-weight: normal;
+	  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+
